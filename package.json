@@ -1,0 +1,12 @@
+{
+  "name": "file-lines-counter",
+  "version": "1.0.0",
+  "description": "Count number of lines in a file in a fast asynchronous fashion.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Alex Bakoushin <alex@bakoush.in>",
+  "license": "MIT"
+}
