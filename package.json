@@ -4,9 +4,14 @@
   "description": "Count number of lines in a file in a fast asynchronous fashion.",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha 'src/**'"
   },
   "keywords": [],
   "author": "Alex Bakoushin <alex@bakoush.in>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "4.2.0",
+    "chai-as-promised": "7.1.1",
+    "mocha": "7.2.0"
+  }
 }
