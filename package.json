@@ -4,7 +4,8 @@
   "description": "Count number of lines in a file in a fast asynchronous fashion.",
   "main": "src/index.js",
   "scripts": {
-    "test": "mocha 'src/**'"
+    "test": "mocha 'src/**'",
+    "coverage": "nyc npm run test"
   },
   "keywords": [],
   "author": "Alex Bakoushin <alex@bakoush.in>",
@@ -12,6 +13,7 @@
   "devDependencies": {
     "chai": "4.2.0",
     "chai-as-promised": "7.1.1",
-    "mocha": "7.2.0"
+    "mocha": "7.2.0",
+    "nyc": "15.0.1"
   }
 }
