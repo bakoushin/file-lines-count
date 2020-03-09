@@ -13,7 +13,13 @@
   "devDependencies": {
     "chai": "4.2.0",
     "chai-as-promised": "7.1.1",
+    "ghooks": "2.0.4",
     "mocha": "7.2.0",
     "nyc": "15.0.1"
+  },
+  "config": {
+    "ghooks": {
+      "pre-commit": "npm run coverage"
+    }
   }
 }
