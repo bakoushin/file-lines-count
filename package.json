@@ -5,7 +5,8 @@
   "main": "src/index.js",
   "scripts": {
     "test": "mocha 'src/**'",
-    "coverage": "nyc npm run test"
+    "coverage": "nyc npm run test",
+    "validate": "npm run coverage"
   },
   "keywords": [],
   "author": "Alex Bakoushin <alex@bakoush.in>",
@@ -19,7 +20,7 @@
   },
   "config": {
     "ghooks": {
-      "pre-commit": "npm run coverage"
+      "pre-commit": "npm run validate"
     }
   }
 }
