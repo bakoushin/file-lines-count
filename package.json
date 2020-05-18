@@ -22,5 +22,8 @@
     "ghooks": {
       "pre-commit": "npm run validate"
     }
-  }
+  },
+  "files": [
+    "src/index.js"
+  ]
 }
