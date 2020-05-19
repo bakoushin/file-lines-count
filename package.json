@@ -8,7 +8,14 @@
     "coverage": "nyc npm run test",
     "validate": "npm run coverage"
   },
-  "keywords": [],
+  "keywords": [
+    "line",
+    "count",
+    "file",
+    "count lines",
+    "wc",
+    "async"
+  ],
   "author": "Alex Bakoushin <alex@bakoush.in>",
   "license": "MIT",
   "devDependencies": {
