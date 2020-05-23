@@ -19,6 +19,14 @@
   ],
   "author": "Alex Bakoushin <alex@bakoush.in>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bakoushin/file-lines-count.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bakoushin/file-lines-count/issues"
+  },
+  "homepage": "https://github.com/bakoushin/file-lines-count#readme",
   "devDependencies": {
     "chai": "4.2.0",
     "chai-as-promised": "7.1.1",
