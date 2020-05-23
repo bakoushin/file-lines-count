@@ -1,6 +1,6 @@
 # file-lines-count
 
-[![Build Status](https://travis-ci.org/bakoushin/file-lines-count.svg?branch=master)](https://travis-ci.org/bakoushin/file-lines-count)
+![Travis](https://img.shields.io/travis/bakoushin/file-lines-count)
 ![Codecov](https://img.shields.io/codecov/c/github/bakoushin/file-lines-count)
 
 Count number of lines in a file in a fast asynchronous fashion.
