@@ -4,7 +4,7 @@
   "description": "Count number of lines in a file in a fast asynchronous fashion.",
   "main": "src/index.js",
   "scripts": {
-    "test": "mocha 'src/**'",
+    "test": "mocha 'src/**/*.js'",
     "coverage": "nyc npm run test",
     "coverage:report": "cat ./coverage/lcov.info | codecov",
     "validate": "npm run coverage"
@@ -40,8 +40,10 @@
       "pre-commit": "npm run validate"
     }
   },
+  "types": "src/index.d.ts",
   "files": [
-    "src/index.js"
+    "src/index.js",
+    "src/index.d.ts"
   ],
   "engines": {
     "node": ">= 12.0.0"
