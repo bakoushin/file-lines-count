@@ -20,6 +20,10 @@ const lines = await linesCount('myfile.txt');
 console.log(`File has ${lines} lines`);
 ```
 
+## Contributing
+
+[Code of conduct](https://github.com/bakoushin/file-lines-count/blob/master/CODE_OF_CONDUCT.md)
+
 ## Author
 
 Alex Bakoushin
