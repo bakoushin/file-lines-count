@@ -1,6 +1,6 @@
 {
   "name": "file-lines-count",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Count number of lines in a file in a fast asynchronous fashion.",
   "main": "src/index.js",
   "scripts": {
