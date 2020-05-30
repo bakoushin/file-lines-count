@@ -1,7 +1,7 @@
 # file-lines-count
 
 [![NPM](https://img.shields.io/npm/v/file-lines-count)](https://www.npmjs.com/package/file-lines-count)
-![Travis](https://img.shields.io/travis/bakoushin/file-lines-count)
+[![Travis](https://img.shields.io/travis/bakoushin/file-lines-count)](https://travis-ci.org/github/bakoushin/file-lines-count)
 ![Codecov](https://img.shields.io/codecov/c/github/bakoushin/file-lines-count)
 
 Count number of lines in a file in a fast asynchronous fashion.
