@@ -28,11 +28,11 @@
   },
   "homepage": "https://github.com/bakoushin/file-lines-count#readme",
   "devDependencies": {
-    "chai": "4.2.0",
+    "chai": "^4.3.6",
     "chai-as-promised": "7.1.1",
-    "codecov": "3.7.2",
+    "codecov": "^3.8.3",
     "ghooks": "2.0.4",
-    "mocha": "8.1.3",
+    "mocha": "^10.0.0",
     "nyc": "15.1.0"
   },
   "config": {
